@@ -1,0 +1,37 @@
+from Ordenador import *
+from utils_v2 import *
+
+def main():
+    ordenador1 = Ordenador(16, 500, "Intel Core i7", "MSI B550", 1200)
+    centrar_titulo("Ordenador 1")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_precio(1300)
+    centrar_titulo("Ordenador 2")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_grafica("NVIDIA RTX 3060")
+    centrar_titulo("Ordenador 3")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_marca("MSI")
+    centrar_titulo("Ordenador 4")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_modelo("MSI MPG Z790 Carbon WiFi")
+    centrar_titulo("Ordenador 5")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_ram(32)
+    centrar_titulo("Ordenador 6")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_almacenamiento(1000)
+    centrar_titulo("Ordenador 7")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_procesador("Intel Core i9")
+    centrar_titulo("Ordenador 8")
+    print(ordenador1.mostrarOrdenador())
+    ordenador1.set_placabase("MSI Z790")
+    centrar_titulo("Ordenador 9")
+    print(ordenador1.mostrarOrdenador())
+    centrar_titulo("Ordenador 10")
+    ordenador1.set_tarjetaRed(False)
+    print(ordenador1.mostrarOrdenador())
+
+if __name__ == "__main__":
+    main()
